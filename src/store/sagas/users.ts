@@ -8,8 +8,8 @@ import Api from '../apis/users';
 
 function* signIn(action: { payload: object, cb: (arg: any) => void }) {
   try {
-    const { data } = yield call(Api.signIn, action.payload);
-    yield put({
+    const { data } = yield call<any>(Api.signIn, action.payload);
+    yield put<any>({
       type: SIGN_IN_SUCCESS,
       payload: { data },
     });
