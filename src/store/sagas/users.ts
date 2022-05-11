@@ -6,7 +6,7 @@ import {
 
 import Api from '../apis/users';
 
-function* signIn(action: { payload: object, cb: (arg: any) => void }) {
+function* signIn(action: { payload: object, cb: (arg: any) => any }) {
   try {
     const { data } = yield call<any>(Api.signIn, action.payload);
     yield put<any>({

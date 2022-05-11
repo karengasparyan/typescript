@@ -1,5 +1,4 @@
-import { api } from "./api";
-
+import {api} from "./api";
 
 class Users {
     static signIn(data: object) {

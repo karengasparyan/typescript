@@ -1,4 +1,4 @@
-export default function actionMaker(type: any, payload: any, cb: (arg: any) => void){
+export default function actionMaker(type: string, payload: object, cb: (arg: any) => any){
   console.log('maker',type, payload, cb)
   return {
     type,
