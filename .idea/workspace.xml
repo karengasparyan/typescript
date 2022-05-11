@@ -4,8 +4,13 @@
     <list default="true" id="2246a5c7-f1e4-46bf-b7d3-7a19b94f067b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/actions/actionMaker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/actionMaker.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/apis/users.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/apis/users.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/users.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/users.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/apis/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/apis/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/apis/users.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/apis/users.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/users.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/users.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/sagas/users.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/sagas/users.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,26 +24,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2911TscOIJq6BRKzXHBmMT8RwFi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="ts.external.directory.path" value="C:\Users\User\Desktop\typescript\node_modules\typescript\lib" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/karen/Desktop/typescript/src/store",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "/home/karen/Desktop/typescript/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/store" />
       <recent name="C:\Users\User\Desktop\typescript\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="C:\Users\User\Desktop\typescript" />
       <recent name="C:\Users\User\Desktop\typescript\src" />
     </key>
@@ -54,10 +65,22 @@
       <workItem from="1652265790326" duration="561000" />
       <workItem from="1652266364841" duration="453000" />
       <workItem from="1652266834039" duration="7122000" />
+      <workItem from="1652286764412" duration="12789000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

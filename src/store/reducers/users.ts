@@ -4,38 +4,50 @@ import {
 } from '../actions/users';
 // import Account from "../../helpers/Account";
 
-const initialState = {
-  user: {},
+const initialState: userState = {
+  user: {
+    _id: '',
+    email: '',
+    key: NaN,
+    phone: '',
+    role: '',
+    updatedAt: '',
+    username: '',
+    createdAt: '',
+  },
+  token: ''
   // token: Account.getToken(),
-  // users: [],
-  // dataCount: 0,
-  // errorMessage: null,
-  // projects: [],
 };
 
-interface action {
-  type: string,
-  payload: {
-    data: any
-  }
+export interface userState {
+  user: {
+    _id: string,
+    email: string,
+    key: number,
+    phone: string,
+    role: string,
+    updatedAt: string,
+    username: string,
+    createdAt: string,
+  },
+  token: string
 }
 
-export default function reducer(state: object = initialState, action: action) {
+export default function reducer(state: object = initialState, action: any) {
   switch (action.type) {
     case SIGN_IN_REQUEST: {
       return {
         ...state,
-        errorMessage: null,
       };
     }
     case SIGN_IN_SUCCESS: {
-      const {user, token} = action.payload.data;
+      const {user, token}: {user: userState, token: userState} = action.payload.data
       // Account.setAccount(user);
       // Account.setToken(token);
       return {
         ...state,
-        token,
         user,
+        token,
       };
     }
     default: {
